@@ -3,75 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>霸道股神 | Support</title>
-  <meta name="description" content="霸道股神 App 官方支援網站，包含隱私權政策、聯繫方式與使用說明。">
+  <title>霸道股神｜官方支援</title>
+  <meta name="description" content="霸道股神 App 官方支援網站，提供隱私權政策、聯絡方式與產品說明。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="index.html"><span>霸道股神</span><small>Support</small></a>
+      <a class="brand" href="index.html" aria-label="霸道股神首頁">
+        <img src="assets/app-icon.png" alt="霸道股神 App icon" width="40" height="40">
+        <span>
+          <strong>霸道股神</strong>
+          <small>Official Support</small>
+        </span>
+      </a>
       <div class="nav-links">
+        <a href="index.html" aria-current="page">首頁</a>
         <a href="privacy.html">隱私權政策</a>
-        <a href="support.html">聯繫支援</a>
+        <a href="support.html">聯絡支援</a>
       </div>
     </nav>
   </header>
 
-  <main>
+  <main class="page-shell">
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Stock Mastery</p>
-        <h1>從 0 開始，也能看懂投資世界。</h1>
-        <p class="lead">霸道股神是一款投資教育 App，提供白話白皮書、術語字典、測驗、任務與每日新知提醒，協助使用者建立投資入門觀念。</p>
+        <h1>投資入門，要清楚，也要安心。</h1>
+        <p class="lead">霸道股神是一款面向投資新手的學習 App。這裡提供官方支援資訊、隱私權政策與聯絡方式，讓使用者在開始學習之前，就能先知道資料如何被使用。</p>
         <div class="actions">
           <a class="button primary" href="privacy.html">查看隱私權政策</a>
-          <a class="button secondary" href="support.html">聯繫我們</a>
+          <a class="button secondary" href="support.html">聯絡我們</a>
+        </div>
+        <div class="hero-metadata">
+          <div>
+            <span>服務定位</span>
+            <strong>投資教育 App</strong>
+          </div>
+          <div>
+            <span>支援信箱</span>
+            <strong>victoriacheng1122@gmail.com</strong>
+          </div>
         </div>
       </div>
-      <div class="hero-panel" aria-label="霸道股神重點">
-        <p>App Store Support</p>
-        <strong>Privacy · Contact · Education</strong>
-        <span>為上架審查與使用者支援準備的官方頁面。</span>
+
+      <div class="icon-stage" aria-label="霸道股神 App icon">
+        <div class="icon-card">
+          <div class="halo halo-a"></div>
+          <div class="halo halo-b"></div>
+          <img src="assets/app-icon.png" alt="霸道股神 App icon" width="1024" height="1024">
+        </div>
+        <div class="stage-caption">
+          <span>新手的第一本投資白皮書</span>
+          <strong>Privacy · Contact · Support</strong>
+        </div>
       </div>
     </section>
 
-    <section class="quick-strip" aria-label="快速資訊">
-      <div>
+    <section class="glass-strip" aria-label="快速資訊">
+      <article>
         <span>隱私權政策</span>
         <strong>公開可存取</strong>
-      </div>
-      <div>
-        <span>支援信箱</span>
-        <strong>victoriacheng1122@gmail.com</strong>
-      </div>
-      <div>
-        <span>服務性質</span>
-        <strong>投資教育內容</strong>
-      </div>
+      </article>
+      <article>
+        <span>聯絡方式</span>
+        <strong>官方 Email 支援</strong>
+      </article>
+      <article>
+        <span>產品性質</span>
+        <strong>教育內容，不提供投資建議</strong>
+      </article>
     </section>
 
-    <section class="content-grid" aria-label="網站內容">
+    <section class="feature-grid">
       <article class="card">
-        <h2>隱私權政策</h2>
-        <p>說明 App 如何處理學習進度、收藏、測驗紀錄、通知偏好與使用者主動寄出的支援信件。</p>
+        <span class="card-label">Privacy</span>
+        <h2>資料怎麼處理</h2>
+        <p>了解 App 目前會在裝置本機保存哪些資料，以及通知、Widget 與支援聯繫的資料使用方式。</p>
         <a href="privacy.html">前往隱私權政策</a>
       </article>
+
       <article class="card">
-        <h2>聯繫支援</h2>
-        <p>遇到通知、Widget、學習內容或 App 使用問題，可以透過 Email 聯繫我們。</p>
-        <a href="support.html">前往聯繫頁</a>
+        <span class="card-label">Support</span>
+        <h2>遇到問題怎麼聯絡</h2>
+        <p>若你在 App、Widget、通知或學習內容上遇到問題，可以透過 Email 聯絡我們。</p>
+        <a href="support.html">前往聯絡支援</a>
       </article>
+
       <article class="card">
-        <h2>投資教育聲明</h2>
-        <p>霸道股神提供教育內容，不提供個人化投資建議、交易指令或保證獲利承諾。</p>
+        <span class="card-label">Notice</span>
+        <h2>先說清楚的產品原則</h2>
+        <p>霸道股神提供投資教育內容，幫助新手建立基礎觀念，不提供個人化投資建議，也不代替專業金融服務。</p>
       </article>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© 2026 霸道股神. All rights reserved.</p>
-    <p><a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a></p>
+    <p><a href="privacy.html">隱私權政策</a> · <a href="support.html">聯絡支援</a></p>
   </footer>
 </body>
 </html>

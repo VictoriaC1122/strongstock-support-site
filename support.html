@@ -3,64 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>霸道股神 | 聯繫支援</title>
-  <meta name="description" content="霸道股神 App 聯繫與支援頁面。">
+  <title>霸道股神｜聯絡支援</title>
+  <meta name="description" content="霸道股神 App 聯絡支援頁面，提供官方信箱與問題回報建議。">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="brand" href="index.html"><span>霸道股神</span><small>Support</small></a>
+      <a class="brand" href="index.html" aria-label="霸道股神首頁">
+        <img src="assets/app-icon.png" alt="霸道股神 App icon" width="40" height="40">
+        <span>
+          <strong>霸道股神</strong>
+          <small>Support</small>
+        </span>
+      </a>
       <div class="nav-links">
+        <a href="index.html">首頁</a>
         <a href="privacy.html">隱私權政策</a>
-        <a href="support.html">聯繫支援</a>
+        <a href="support.html" aria-current="page">聯絡支援</a>
       </div>
     </nav>
   </header>
 
-  <main>
-    <section class="hero compact">
+  <main class="page-shell">
+    <section class="hero hero-compact">
       <div class="hero-copy">
         <p class="eyebrow">Support</p>
-        <h1>聯繫霸道股神支援</h1>
-        <p class="lead">如果你遇到 App、Widget、每日通知、學習內容或上架相關問題，可以透過 Email 聯繫我們。</p>
+        <h1>聯絡霸道股神支援</h1>
+        <p class="lead">如果你遇到 App、Widget、每日通知、學習內容或顯示問題，可以透過 Email 聯絡我們。來信時附上裝置與問題畫面，通常會更容易定位狀況。</p>
         <div class="actions">
           <a class="button primary" href="mailto:victoriacheng1122@gmail.com?subject=%E9%9C%B8%E9%81%93%E8%82%A1%E7%A5%9E%20App%20Support">寄信給我們</a>
+          <a class="button secondary" href="privacy.html">查看隱私權政策</a>
         </div>
       </div>
-      <div class="hero-panel support-panel" aria-label="支援信箱">
-        <p>Contact Email</p>
+
+      <div class="support-card">
+        <span>Contact Email</span>
         <strong>victoriacheng1122@gmail.com</strong>
-        <span>請附上裝置、系統版本與問題畫面，會更容易定位狀況。</span>
+        <p>建議附上裝置型號、系統版本、App 版本與問題重現步驟。</p>
       </div>
     </section>
 
-    <section class="content-grid support-grid">
+    <section class="feature-grid support-grid">
       <article class="card">
-        <h2>聯繫 Email</h2>
+        <span class="card-label">Contact</span>
+        <h2>官方信箱</h2>
         <p><a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a></p>
       </article>
+
       <article class="card">
-        <h2>回報問題時建議提供</h2>
+        <span class="card-label">Helpful</span>
+        <h2>來信時建議提供</h2>
         <ul>
           <li>裝置型號，例如 iPhone、iPad 或 Mac</li>
-          <li>系統版本</li>
-          <li>App 版本</li>
-          <li>遇到問題的畫面或操作步驟</li>
+          <li>系統版本與 App 版本</li>
+          <li>問題畫面或錯誤訊息</li>
+          <li>大致操作步驟</li>
         </ul>
       </article>
+
       <article class="card">
+        <span class="card-label">Privacy</span>
         <h2>請避免提供</h2>
         <ul>
-          <li>密碼、銀行帳戶或券商帳號</li>
-          <li>身份證字號或完整交易紀錄</li>
-          <li>任何與支援問題無關的敏感資料</li>
+          <li>密碼、驗證碼或登入憑證</li>
+          <li>銀行帳號、券商帳號</li>
+          <li>身份證字號</li>
+          <li>與問題無關的敏感資料</li>
         </ul>
       </article>
     </section>
 
-    <section class="notice">
-      <h2>投資教育聲明</h2>
+    <section class="notice-card">
+      <span class="card-label">Important</span>
+      <h2>產品聲明</h2>
       <p>霸道股神提供投資入門教育內容，不提供個人化投資建議、交易指令或保證獲利承諾。</p>
     </section>
   </main>
